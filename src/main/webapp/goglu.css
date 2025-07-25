@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body {
+  background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+  font-family: cursive;
+  text-align: center;
+  color: #333;
+}
+
+.head2:hover {
+  font-size: 2.1rem;
+  color: black;
+}
+
+.container {
+  width: 600px;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+  padding-right: 2.6rem;
+  padding-left: 1.5rem;
+  padding-top: -3rem;
+  padding-bottom: -4rem;
+  margin-top: 0; 
+  margin-bottom: 2rem;
+}
+.small{
+	font-size:20px;
+	padding-bottom: -3rem;
+	color: #333;
+}
+
+.form-box {
+  flex: 1;
+  padding: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+  margin-top: -2rem;
+}
+
+/* Form styling */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #444;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+  border-color: #007bff;
+}
+
+input[type="submit"] {
+ background: #0056b3;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #333;
+  font-size: 16.5px;
+}
+
+.wrap {
+  margin-top: 10px;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
