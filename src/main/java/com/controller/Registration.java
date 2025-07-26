@@ -41,6 +41,7 @@ public class Registration extends HttpServlet {
 		
 		UserService service = new UserService();
 		boolean isAdded = service.addUser(user);
+		System.out.println(isAdded);
 		if(isAdded) {
 			RequestDispatcher rd = req.getRequestDispatcher("login.html");
 			rd.forward(req, resp);
